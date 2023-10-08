@@ -1,6 +1,7 @@
 import Logo from './functions/logo.js'
 import Button from './functions/button.js'
 import webColor from './themes.js'
+import React, { useEffect } from 'react';
 
 
 function Header(){
@@ -45,20 +46,41 @@ function Body(){
     background: webColor.theme.backgroundColor,
     color: webColor.theme.color
   };
+  const EvenlySpacedStyle ={
+     display: 'flex', 
+     justifyContent: 'space-between'
+  };
+  const LinkStyle = {
+    color: 'white',
+    fontSize: '2rem',
+  };
   return(
     <div style = {BodyStyle}>
-      <video width="100%" height="500" controls src='/resources/videos/TestVideoNASA.mp4' />
-      <h1>saddad</h1>
+      <video width="100%" height="470" controls src='/resources/videos/TestVideoNASA.mp4'/>
+      <a href="#videosSection" className="scroll-link-button" style={LinkStyle}>
+        Explore other videos
+      </a>
+      <div id="videosSection" style={EvenlySpacedStyle}>
+        <video width="30%" height="300" controls src='/resources/videos/TestVideoNASA2.mp4' />
+        <video width="30%" height="300" controls src='/resources/videos/TestVideoNASA2.mp4' />
+        <video width="30%" height="300" controls src='/resources/videos/TestVideoNASA2.mp4' />
+      </div>
     </div>
   )
 }
 
 
 export default function Main() {
+  useEffect(() => {
+    const isRefreshed = performance.getEntriesByType("navigation")[0].type === "reload";
+    if (isRefreshed) {
+      window.location.href = '/';
+    }
+  }, []);
   return (
       <>
-      {Header()}
-      {Body()}
+        {Header()}
+        {Body()}
       </>
   );
 }
