@@ -7,4 +7,4 @@ const webColor = {
   };
 
 
-  export default webColor;
+export default webColor;

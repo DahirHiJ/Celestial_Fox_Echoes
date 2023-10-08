@@ -1,8 +1,7 @@
-import Logo from './functions/logo.js'
-import Button from './functions/button.js'
-import webColor from './themes.js'
+import Logo from '../functions/logo.js'
+import buttonStyle from '../Themes/button.js'
+import webColor from '../Themes/themes.js'
 import React, { useEffect } from 'react';
-
 
 function Header(){
   const headerStyle = {
@@ -24,6 +23,11 @@ function Header(){
     alignItems: 'center'
   };
 
+  function ToAbout(){
+      window.location.href = "/About";
+  }
+
+
   return (
     <header style={headerStyle}>
       <div>
@@ -34,8 +38,8 @@ function Header(){
         <h1>Listen to the Universe</h1>
       </div>
       <div style={buttonContainerStyle}>
-        <Button text='Upload'/>
-        <Button text='About' />
+      <button style={buttonStyle}>Upload</button>
+      <button style={buttonStyle} onClick={ToAbout}>About</button>
       </div>
     </header>
   );
@@ -70,11 +74,14 @@ function Body(){
 }
 
 
-export default function Main() {
+
+
+
+export default function Home() {
   useEffect(() => {
     const isRefreshed = performance.getEntriesByType("navigation")[0].type === "reload";
     if (isRefreshed) {
-      window.location.href = '/';
+      window.location.href = "/";
     }
   }, []);
   return (
