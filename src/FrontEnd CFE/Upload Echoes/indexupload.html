@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uploader</title>
+    <link rel="stylesheet" href="styleupload.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.3/css/all.min.css">
+ </head>
+ 
+<body>
+    <div class="wrapper">
+        <header>File Uploader</header>
+        <form action="#">
+		<input type = "file" class="file-input">
+            <i class="fas fa-cloud-upload-alt"></i>
+            <p>Browse file to upload</p>
+        </form>
+        <section class="progress-area">
+            <ul class="row">
+                <div class="content">
+                    <div class="details">
+                        <span class="name">image_01.png * Uploading</span>
+                        <span class="percent">50%</span>
+                    </div>
+
+                    <div class="progress-bar">
+                        <div class="progress"></div>
+                    </div>
+                </div>
+            </ul>
+        </section>
+
+        <section class="uploaded-area">
+            <ul class="row">
+                <div class="content">
+                    <div class="details">
+                        <span class="name">image_01.png * Uploaded</span>
+                        <span class="size">70KB</span>
+                    </div>
+                </div>
+            </ul>
+        </section>
+    </div>
+	
+	<script src="sciptupload.js"></script>
+	
+</body>
+</html>

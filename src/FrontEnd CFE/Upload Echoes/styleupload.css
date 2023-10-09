@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family; "Poppins", san-serif;
+}
+
+body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            background: #000018;
+            margin: 0; 
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Poppins", sans-serif;
+        }
+
+        .wrapper {
+            width: 430px;
+            padding: 30px;
+            background: #fff;
+            border-radius: 5px;
+        }
+
+        .wrapper header {
+            color: #000018;
+            font-size: 27px;
+            font-weight: 600;
+            text-align: center;
+        }
+
+        .wrapper form {
+            border: 2px dashed #000018;
+            height: 167px;
+            border-radius: 5px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            margin: 30px 0;
+        }
+
+        section .row {
+            background: #FABB4F;
+            margin-bottom: 10px;
+            list-style: none;
+            padding: 15px 20px;
+            border-radius: 5px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        section .details span {
+            font-size: 14px;
+        }
+
+        .progress-area .row .content {
+            width: 100%;
+            margin-left: 15px;
+        }
+
+        .progress-area .details {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 7px;
+            justify-content: space-between;
+        }
+
+        .progress-area .progress-bar {
+            height: 6px;
+            width: 100%;
+            background: #fff;
+            margin-bottom: 4px;
+            border-radius: 30px;
+        }
+
+        .progress-bar .progress {
+            height: 100%;
+            width: 50%;
+            background: #000018;
+            border-radius: inherit;
+        }
+
+        .uploaded-area {
+            max-height: 230px;
+            overflow-y: scroll;
+        }
+
+        .uploaded-area ::-webkit-scrollbar {
+            width: 0px;
+        }
+
+        .uploaded-area .row .content {
+            display: flex;
+            align-items: center;
+        }
+
+        .uploaded-area .row .details {
+            display: flex;
+            margin-left: 15px;
+            flex-direction: column;
+        }
+
+        .uploaded-area .details .size {
+            font-size: 11px;
+            color: #404040;
+        }

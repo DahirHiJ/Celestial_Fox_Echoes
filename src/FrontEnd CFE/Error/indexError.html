@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Error Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #000018;
+        }
+		
+		.image {
+		   position: absolute;
+            top: 0;
+            left: 0;
+			}
+
+        .error-message {
+            font-size: 50px;
+            margin-top: 90px;
+			color: #fff;
+        }
+
+        .button-container {
+            margin-top: 100px;
+        }
+
+        .button {
+            margin: 0 50px;
+            padding: 20px 40px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+  <div class="image">
+	<image src= "Imagen7.png">
+	</div>
+    <div class="error-message">
+        An unexpected error happened :( 
+    </div>
+    <div class="button-container">
+        <button class="button" onclick="tryAgain()">Try Again</button>
+        <button class="button" onclick="goBack()">Go Back</button>
+    </div>
+
+    <script>
+        function tryAgain() {
+            // Agrega aquí la lógica para intentar de nuevo
+        }
+
+        function goBack() {
+            window.history.back();
+        }
+    </script>
+</body>
+</html>

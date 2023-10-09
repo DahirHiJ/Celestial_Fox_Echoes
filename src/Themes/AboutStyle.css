@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Allura|Josefin+Sans');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background : #000018;
+  font-family: 'Josefin Sans', sans-serif;
+ 
+}
+
+.wrapper{
+  margin-top: 2%;
+}
+
+.wrapper h1{
+  font-family: 'Arial', cursive;
+  font-size: 52px;
+  margin-bottom: 20px;
+  text-align: center;
+  color : #FFFFFF;
+}
+
+.wrapper h2{
+  font-family: 'Arial', cursive;
+  font-size: 18px;
+  margin-bottom: 20px;
+  text-align: center;
+  color : #FFFFFF;
+}
+
+.Boxes{
+  display: flex;
+  justify-content: center;
+  width: auto;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.Boxes .box{
+  background: #fff;
+  margin: 5px;
+  margin-bottom: 50px;
+  width: 300px;
+  padding: 20px;
+  line-height: 20px;
+  color: #000000;  
+  position: relative;
+  border-radius : 40px;
+}
+
+.Boxes .box h3{
+  color: #000000;
+  font-size: 26px;
+  margin-top: 50px;
+}
+
+.Boxes .box p.role{
+  color: #ccc;
+  margin: 12px 0;
+  font-size: 12px;
+  text-transform: uppercase;
+}
