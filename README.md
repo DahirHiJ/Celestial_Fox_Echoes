@@ -7,6 +7,10 @@
 
 https://github.com/DahirHiJ/Celestial_Fox_Echoes-Frontend/assets/78052629/bc8851a1-06cb-4288-b82a-de0e5da5853c
 
+## Generating audio from videos
+
+https://github.com/DahirHiJ/Celestial_Fox_Echoes/assets/78052629/f4f6bcee-d959-4a10-8b0e-f4cb567fdfb7
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
