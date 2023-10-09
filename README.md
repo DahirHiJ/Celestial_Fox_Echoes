@@ -1,5 +1,9 @@
 # Celestial Fox Echoes
 
+![Logo](https://github.com/DahirHiJ/Celestial_Fox_Echoes-Frontend/assets/78052629/b2b56d3d-9b43-4ff7-b95c-6063a81cc460)
+
+## Frontend in Action
+
 https://github.com/DahirHiJ/Celestial_Fox_Echoes-Frontend/assets/78052629/bc8851a1-06cb-4288-b82a-de0e5da5853c
 
 # Getting Started with Create React App
