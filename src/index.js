@@ -2,6 +2,10 @@ import * as React from "react";
 import * as ReactDOM from "react-dom/client";
 import Home from './pages/Home'
 import About from './pages/About'
+import Upload from './pages/Upload'
+import Processing from './pages/Processing'
+import Error from './pages/Error'
+import Ready from './pages/Ready'
 import {
   createBrowserRouter,
   RouterProvider,
@@ -19,19 +23,19 @@ const router = createBrowserRouter([
   },
   {
     path: "/Upload",
-    element: <About />,
+    element: <Upload />,
   },
   {
     path: "/Processing",
-    element: <About />,
+    element: <Processing />,
   },
   {
     path: "/Error",
-    element: <About />,
+    element: <Error />,
   },
   {
     path: "/Ready",
-    element: <About />,
+    element: <Ready />,
   }
 ]);
 

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>About Celestial Fox Echoes</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .box-info {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+
+<div class="wrapper">
+  <h1>About Celestial Fox Echoes</h1>
+  
+  <div class="Boxes">
+  
+    <div class="box" onmouseover="mostrarInfo('info1')" onmouseout="ocultarInfo('info1')">
+      <div class="box_img">
+        <img src="Imagen1.png">
+      </div>
+      <h3>Description</h3>
+      <p class="role">Who we are?</p>
+      <div id="info1" class="box-info">Información adicional para Description</div>
+    </div>
+    
+    <div class="box" onmouseover="mostrarInfo('info2')" onmouseout="ocultarInfo('info2')">
+      <div class="box_img">
+        <img src="Imagen2.png">
+      </div>
+      <h3>Space Apps</h3>
+      <p class="role">Experience</p>
+      <div id="info2" class="box-info">Información adicional para Space Apps</div>
+    </div>
+    
+    <div class="box" onmouseover="mostrarInfo('info3')" onmouseout="ocultarInfo('info3')">
+      <div class="box_img">
+        <img src="Imagen3.jpg">
+      </div>
+      <h3>Credits</h3>
+      <p class="role">credit</p>
+      <div id="info3" class="box-info">Información adicional para Credits</div>
+    </div>
+    
+  </div>
+</div>
+
+<script>
+    function mostrarInfo(id) {
+        var infoDiv = document.getElementById(id);
+        infoDiv.style.display = "block";
+    }
+
+    function ocultarInfo(id) {
+        var infoDiv = document.getElementById(id);
+        infoDiv.style.display = "none";
+    }
+</script>
+
+</body>
+</html>
+
+

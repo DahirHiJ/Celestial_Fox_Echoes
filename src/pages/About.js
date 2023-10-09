@@ -5,10 +5,10 @@ import '../Themes/AboutStyle.css';
 export default function About() {
   return (
     <div className="wrapper">
-      <h1>About Celestial Fox Echoes</h1>
+      <h2>About Celestial Fox Echoes</h2>
       <h2>Click on the boxes for information!</h2>
       <div className="Boxes">
-        <Box
+      <Box
           imgSrc="/resources/images/Img1.png"
           title="Description"
           role="Who we are?"

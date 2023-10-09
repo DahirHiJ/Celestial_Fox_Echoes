@@ -27,6 +27,9 @@ function Header(){
       window.location.href = "/About";
   }
 
+  function ToUpload(){
+    window.location.href = "/Upload";
+  }
 
   return (
     <header style={headerStyle}>
@@ -38,7 +41,7 @@ function Header(){
         <h1>Listen to the Universe</h1>
       </div>
       <div style={buttonContainerStyle}>
-      <button style={buttonStyle}>Upload</button>
+      <button style={buttonStyle} onClick={ToUpload}>Upload</button>
       <button style={buttonStyle} onClick={ToAbout}>About</button>
       </div>
     </header>

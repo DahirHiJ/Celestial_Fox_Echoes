@@ -23,21 +23,45 @@ body {
             font-family: "Poppins", sans-serif;
         }
 
-        .wrapper {
+        .wrapperUp {
             width: 430px;
             padding: 30px;
             background: #fff;
             border-radius: 5px;
         }
 
-        .wrapper header {
+        .wrapperUp header {
             color: #000018;
             font-size: 27px;
             font-weight: 600;
             text-align: center;
         }
 
-        .wrapper form {
+        .wrapperUp h1 {
+            color: #000018;
+            font-size: 24px;
+            font-weight: 600;
+            text-align: center;
+        }
+
+        .wrapperUp h2 {
+            color: #000018;
+            font-size: 14px;
+            font-weight: 600;
+            text-align: center;
+        }
+        .wrapperUp button {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-Color: #FF5C01;
+            color: white;
+            padding: 5px 10px;
+            margin: 30px 40%;
+            border-Radius: 25px;
+        }
+
+        .wrapperUp form {
             border: 2px dashed #000018;
             height: 167px;
             border-radius: 5px;

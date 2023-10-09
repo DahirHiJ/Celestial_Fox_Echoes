@@ -4,7 +4,7 @@
 
 
 body {
-    background-image: url('/resources/images/Img1.png');
+    background-image: url('logo.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -13,6 +13,13 @@ body {
 }
 
 
+
+.h1 {
+	color:#FFFFFF;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+}
 
 .top-left-image {
    position: absolute;
@@ -40,7 +47,7 @@ body {
 	width: calc(var(--width, 0) * 1%);
 	min-width: 2rem;
 	max-width: calc(100% - 1em);
-	background-color: #069;
+	background-color: #560BAE;
 	border-radius: 1em;
 	padding: 1em;
 }
