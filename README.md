@@ -1,6 +1,7 @@
 # Celestial Fox Echoes
-
-![Logo](https://github.com/DahirHiJ/Celestial_Fox_Echoes-Frontend/assets/78052629/b2b56d3d-9b43-4ff7-b95c-6063a81cc460)
+<p align="center">
+  <img src="https://github.com/DahirHiJ/Celestial_Fox_Echoes-Frontend/assets/78052629/b2b56d3d-9b43-4ff7-b95c-6063a81cc460" width=25% height=25%>
+</p>
 
 ## Frontend in Action
 
